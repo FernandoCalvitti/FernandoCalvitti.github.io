@@ -10,8 +10,8 @@ const Experience = () => {
       <TextContainer
         title={`My experience...
         `}
-        subtitle={"Where I worked?"}
-        smallTitle={"Click them to know more"}
+        subtitle={"The Companies"}
+        smallTitle={"Where I've Been Working"}
       />
       <div className="app__main__experience__wrapper">
         <ExpButton

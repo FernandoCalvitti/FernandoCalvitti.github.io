@@ -1,0 +1,71 @@
+.app__main__skills__wrapper {
+  background-color: rgb(29, 29, 29);
+  max-width: 30vw;
+  margin-top: 2.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.app__main__skills__wrapper > * {
+  border-radius: 0.5rem;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.app__main__skills__wrapper > *:nth-child(1) {
+  fill: #f75421;
+}
+
+.app__main__skills__wrapper > *:nth-child(2) {
+  fill: #2f74c0;
+}
+
+.app__main__skills__wrapper > *:nth-child(3) {
+  fill: #efd81d;
+}
+
+.app__main__skills__wrapper > *:nth-child(4) {
+  fill: #254bdd;
+}
+
+.app__main__skills__wrapper > *:nth-child(5) {
+  fill: #59d2f3;
+}
+
+.app__main__skills__wrapper > *:nth-child(6) {
+  background: linear-gradient(
+    0deg,
+    rgba(194, 35, 116, 1) 0%,
+    rgba(255, 187, 68, 1) 100%
+  );
+}
+
+.app__main__skills__wrapper > *:nth-child(7) {
+  fill: #7248b6;
+}
+
+.app__main__skills__wrapper > *:nth-child(8) {
+  fill: #86be00;
+}
+
+.app__main__skills__wrapper > *:nth-child(9) {
+  fill: #bc1224;
+}
+
+.app__main__skills__wrapper > *:nth-child(10) {
+  fill: #e94e31;
+}
+
+.app__main__skills__wrapper > *:nth-child(11) {
+  fill: #007bf7;
+}
+
+.app__main__skills__wrapper > *:nth-child(12) {
+  fill: #2580f7;
+}
+
+.app__main__skills__wrapper > *:nth-child(13) {
+  fill: #e26f00;
+}

@@ -9,7 +9,7 @@
 }
 
 .app__title--size-medium {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   font-size: 4rem;
   line-height: 5.125rem;
   font-weight: 400;
@@ -29,4 +29,8 @@
   line-height: 3rem;
   font-weight: 400;
   max-width: 38.75rem;
+}
+
+.react-icons {
+  vertical-align: middle;
 }
