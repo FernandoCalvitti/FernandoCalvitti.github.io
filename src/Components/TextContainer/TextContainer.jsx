@@ -8,9 +8,15 @@ import "./TextContainer.css";
 const TextContainer = ({ title, subtitle, smallTitle }) => {
   return (
     <article>
-      <Title text={title} />
-      <SubTitle text={subtitle} />
-      <SmallTitle text={smallTitle} />
+      <Title className="app__article__text__container__title" text={title} />
+      <SubTitle
+        className="app__article__text__container__subTitle"
+        text={subtitle}
+      />
+      <SmallTitle
+        className="app__article__text__container__smallTitle"
+        text={smallTitle}
+      />
     </article>
   );
 };

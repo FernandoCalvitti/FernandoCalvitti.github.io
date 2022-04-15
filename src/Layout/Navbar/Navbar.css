@@ -1,0 +1,42 @@
+.app__navbar {
+  position: fixed;
+  text-align: right;
+  top: 33.3%;
+  left: 70%;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.app__navbar a {
+  font-size: 2rem;
+  line-height: 2rem;
+  width: fit-content;
+  color: var(--color-light-violet);
+  filter: grayscale();
+  transition: filter 0.4s ease-in-out;
+}
+
+.app__navbar a:hover {
+  filter: none;
+}
+
+.app__navbar a:first-child {
+  margin-left: 50%;
+}
+
+.app__navbar a:nth-child(2) {
+  margin-left: 35%;
+}
+
+.app__navbar a:nth-child(3) {
+  margin-left: 20%;
+}
+
+.app__navbar a:nth-child(4) {
+  margin-left: 5%;
+}

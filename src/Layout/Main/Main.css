@@ -2,6 +2,7 @@
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  background-color: var(--color-black);
 }
 
 .app__main__section {

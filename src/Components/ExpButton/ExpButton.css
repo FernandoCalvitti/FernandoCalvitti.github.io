@@ -1,0 +1,30 @@
+.button__wrapper {
+  mix-blend-mode: normal;
+  box-shadow: inset 3.125rem 3.125rem 6.25rem rgba(227, 232, 255, 0.25);
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 1.5rem;
+  transition: all 0.4s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__wrapper:hover {
+  box-shadow: inset 3.125rem 3.125rem 6.25rem var(--color-light-violet);
+  border: 5px solid var(--color-sandy);
+  cursor: pointer;
+}
+
+.app__experience__card__background--blurred {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #252424cc;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

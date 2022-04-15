@@ -1,3 +1,7 @@
+.app__wrapper {
+  box-sizing: border-box;
+}
+
 .app__title {
   font-size: 6rem;
   line-height: 7.625rem;
@@ -12,14 +16,15 @@
 }
 
 .app__title--size-small {
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
   font-size: 2rem;
   line-height: 2.563rem;
   font-weight: 400;
+  background-color: transparent;
 }
 
 .app__paragraph {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
   line-height: 3rem;
   font-weight: 400;

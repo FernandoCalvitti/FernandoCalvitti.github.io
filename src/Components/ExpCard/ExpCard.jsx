@@ -2,10 +2,12 @@ import React from "react";
 import SmallTitle from "../SmallTitle";
 import Paragraph from "../Paragraph";
 
-const ExpCard = ({ name, history }) => {
+import "./ExpCard.css";
+
+const ExpCard = ({ date, history }) => {
   return (
-    <div>
-      <SmallTitle text={name} style={{ textTransform: "uppercase" }} />;
+    <div className="app__experience__card__wrapper">
+      <SmallTitle text={date} />
       <Paragraph text={history} />
     </div>
   );
