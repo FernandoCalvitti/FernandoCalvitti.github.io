@@ -1,6 +1,4 @@
 import React from "react";
-import Title from "../../Components/Title/Title";
-import SubTitle from "../../Components/SubTitle/SubTitle";
 import TextContainer from "../../Components/TextContainer";
 import Paragraph from "../../Components/Paragraph/Paragraph";
 
@@ -8,7 +6,7 @@ import "./Welcome.css";
 
 const Welcome = () => {
   return (
-    <section className="app__main_section">
+    <section className="app__main__section app__main__section--welcome">
       <TextContainer
         title={"Hey! I am Fernando,"}
         subtitle={"Front End Developer"}
