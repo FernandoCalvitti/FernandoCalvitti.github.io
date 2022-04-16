@@ -1,11 +1,17 @@
 .app__main__skills__wrapper {
-  background-color: rgb(29, 29, 29);
+  background-color: var(--color-dark-grey);
   max-width: 30vw;
   margin-top: 2.5rem;
   border-radius: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  filter: grayscale();
+  transition: all 0.8s ease-in-out;
+}
+
+.app__main__skills__wrapper:hover {
+  filter: none;
 }
 
 .app__main__skills__wrapper > * {

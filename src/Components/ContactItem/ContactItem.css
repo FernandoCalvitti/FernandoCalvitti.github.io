@@ -1,0 +1,12 @@
+.app__main__contact__item {
+  border-radius: 1.25rem;
+  background-color: #080808;
+  padding-left: 2rem;
+  transition: all 1s ease;
+}
+
+.app__main__contact__item:hover {
+  border-radius: 1.25rem;
+  background-color: var(--color-light-violet);
+  padding-left: 5rem;
+}

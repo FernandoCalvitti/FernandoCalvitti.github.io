@@ -1,0 +1,8 @@
+.app__main__contact__options__wrapper {
+  max-width: 30vw;
+  margin-top: 2rem;
+}
+
+.app__main__contact__options__wrapper > * {
+  color: red;
+}
