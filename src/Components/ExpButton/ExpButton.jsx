@@ -10,7 +10,7 @@ const ExpButton = ({ name, date, history }) => {
   return (
     <>
       <div className="button__wrapper" onClick={() => setIsOpenCard(true)}>
-        <SmallTitle text={name} className="button__title" />
+        <SmallTitle text={name} margin={false} className="button__title" />
       </div>
       {isOpenCard && (
         <div

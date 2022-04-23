@@ -1,6 +1,8 @@
 import React from "react";
 
-const SubTitle = ({ text }) => {
+import "./Subtitle.css";
+
+const SubTitle = ({ text, margin = true }) => {
   return <h3 className="app__title--size-medium">{text}</h3>;
 };
 

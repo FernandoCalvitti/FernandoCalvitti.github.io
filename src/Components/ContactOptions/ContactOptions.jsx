@@ -1,6 +1,5 @@
 import ContactItem from "../ContactItem";
 import "./ContactOptions.css";
-import { SiWhatsapp } from "react-icons/si";
 
 function ContactOptions() {
   return (

@@ -2,35 +2,6 @@
   box-sizing: border-box;
 }
 
-.app__title {
-  font-size: 6rem;
-  line-height: 7.625rem;
-  max-width: 55vw;
-}
-
-.app__title--size-medium {
-  margin-top: 0.75rem;
-  font-size: 4rem;
-  line-height: 5.125rem;
-  font-weight: 400;
-}
-
-.app__title--size-small {
-  margin-top: 1.25rem;
-  font-size: 2rem;
-  line-height: 2.563rem;
-  font-weight: 400;
-  background-color: transparent;
-}
-
-.app__paragraph {
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  font-weight: 400;
-  max-width: 38.75rem;
-}
-
 .react-icons {
   vertical-align: middle;
 }
