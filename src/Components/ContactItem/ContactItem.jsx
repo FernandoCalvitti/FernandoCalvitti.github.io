@@ -1,10 +1,14 @@
 import Paragraph from "../Paragraph/Paragraph";
 import { SiWhatsapp, SiGithub, SiLinkedin } from "react-icons/si";
 import { MdOutlineEmail } from "react-icons/md";
+import ContactMe from "../ContactMe/ContactMe";
 
 import "./ContactItem.css";
+import { useState } from "react";
 
 function ContactItem({ text, link = null }) {
+  const [isOpenForm, setIsOpenForm] = useState(false);
+
   return (
     <div className="app__main__contact__item">
       {link ? (
@@ -22,18 +26,24 @@ function ContactItem({ text, link = null }) {
             {text === "Github" && (
               <SiGithub className="app__main__contact__item__icon icon--github" />
             )}
-            {text === "+549 113 078 9246" && (
+            {text === "WhatsApp" && (
               <SiWhatsapp className="app__main__contact__item__icon icon--whatsapp" />
             )}
           </a>
         </>
       ) : (
-        <div className="app__main__contact__link">
-          <Paragraph text={text} margin={false} />
-          {text === "fernandocalvitti@gmail.com" && (
-            <MdOutlineEmail className="app__main__contact__item__icon icon--email" />
-          )}
-        </div>
+        <>
+          <div
+            className="app__main__contact__link"
+            onClick={() => setIsOpenForm(true)}
+          >
+            <Paragraph text={text} margin={false} />
+            {text === "Email" && (
+              <MdOutlineEmail className="app__main__contact__item__icon icon--email" />
+            )}
+          </div>
+          {isOpenForm && <ContactMe setIsOpenForm={setIsOpenForm} />}
+        </>
       )}
     </div>
   );

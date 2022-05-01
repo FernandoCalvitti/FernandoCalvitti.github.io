@@ -6,9 +6,7 @@ const Contact = () => {
   return (
     <section className="app__main__section" id="contact">
       <TextContainer
-        title={`Contact Channels
-
-        `}
+        title={`Contact Channels`}
         subtitle={"Reach Me "}
         smallTitle={"If You Think I Could Help On Your Project"}
       />

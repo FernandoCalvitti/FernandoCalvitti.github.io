@@ -3,7 +3,7 @@
   background-color: #080808;
   padding-left: 2rem;
   padding-right: 2rem;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
   margin-top: 1rem;
 }
 
@@ -17,7 +17,7 @@
 
 .app__main__contact__item:hover {
   border-radius: 1.25rem;
-  padding-left: 5rem;
+  padding-left: 3rem;
 }
 
 .app__main__contact__item:hover .icon--email {
