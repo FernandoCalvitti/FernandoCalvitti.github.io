@@ -1,0 +1,73 @@
+.app__main__contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30vw;
+  background: #303032;
+  box-shadow: inset -50px -50px 100px rgba(227, 232, 255, 0.25);
+  align-items: center;
+  padding-bottom: 2rem;
+  border-radius: 2rem;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.app__main__contact__form:hover {
+  box-shadow: inset 3.125rem 3.125rem 6.25rem var(--color-light-violet);
+}
+
+.app__main__contact__form label {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+.app__main__contact__form .app__main__contact__form__input--text,
+.app__main__contact__form__input--email,
+textarea {
+  width: 60%;
+  margin-top: 0.25rem;
+  border: none;
+  min-height: 2rem;
+  border-radius: 0.25rem;
+  color: var(--color-black);
+}
+
+textarea {
+  height: 25vh;
+  margin-bottom: 0.5rem;
+  resize: none;
+}
+
+.app__main__contact__form__input--submit {
+  width: 60%;
+  margin-top: 0.25rem;
+  border: none;
+  min-height: 2rem;
+  border-radius: 0.25rem;
+  font-size: 20px; /* 
+  box-shadow: inset 3.125rem 3.125rem 6.25rem var(--color-light-violet); */
+  transition: all 1s ease-in-out;
+}
+
+.app__main__contact__form__input--submit:hover {
+  box-shadow: none;
+  /* 
+  background-color: var(--color-black); */
+  cursor: pointer;
+}
+
+.app__main__contactme__background--blurred {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #252424cc;
+  height: 100%;
+  width: 100vw;
+  z-index: 1;
+}

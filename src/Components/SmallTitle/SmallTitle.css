@@ -1,0 +1,14 @@
+.app__title--size-small {
+  font-size: 2rem;
+  line-height: 2.563rem;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.app__title--size-small--margin-bigger {
+  font-size: 2rem;
+  line-height: 2.563rem;
+  font-weight: 400;
+  background-color: transparent;
+  margin-top: 1.5rem;
+}

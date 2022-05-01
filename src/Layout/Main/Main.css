@@ -2,9 +2,11 @@
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  background-color: var(--color-black);
 }
 
-.app__main_section {
+.app__main__section {
   height: 100vh;
   scroll-snap-align: center;
+  padding: 18vh 0 0 8.2%;
 }
