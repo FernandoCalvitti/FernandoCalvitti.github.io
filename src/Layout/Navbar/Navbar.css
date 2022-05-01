@@ -12,31 +12,34 @@
   width: 20vw;
 }
 
-.app__navbar a {
+.app__navbar button {
   font-size: 2rem;
   line-height: 2rem;
   width: fit-content;
   color: var(--color-light-violet);
   filter: grayscale();
   transition: filter 0.4s ease-in-out;
+  background: none;
+  border: none;
 }
 
-.app__navbar a:hover {
+.app__navbar button:hover {
   filter: none;
+  cursor: pointer;
 }
 
-.app__navbar a:first-child {
+.app__navbar button:first-child {
   margin-left: 50%;
 }
 
-.app__navbar a:nth-child(2) {
+.app__navbar button:nth-child(2) {
   margin-left: 35%;
 }
 
-.app__navbar a:nth-child(3) {
+.app__navbar button:nth-child(3) {
   margin-left: 20%;
 }
 
-.app__navbar a:nth-child(4) {
+.app__navbar button:nth-child(4) {
   margin-left: 5%;
 }
