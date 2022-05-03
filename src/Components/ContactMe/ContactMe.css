@@ -36,6 +36,7 @@ textarea {
   min-height: 2rem;
   border-radius: 0.25rem;
   color: var(--color-black);
+  font-size: 1.125rem;
 }
 
 textarea {
@@ -70,4 +71,10 @@ textarea {
   height: 100%;
   width: 100vw;
   z-index: 1;
+}
+
+@media screen and (max-width: 1350px) {
+  .app__main__contact__form {
+    width: 25rem;    
+  }
 }

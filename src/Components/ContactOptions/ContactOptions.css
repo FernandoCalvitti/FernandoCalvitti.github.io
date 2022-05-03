@@ -2,3 +2,19 @@
   max-width: 30vw;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 1350px) {
+  .app__main__contact__options__wrapper {
+    max-width: 75%;
+    min-width: 25rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__main__contact__options__wrapper {
+    max-width: 100%;
+    min-width: unset;
+    margin-top: 2rem;
+  }
+}

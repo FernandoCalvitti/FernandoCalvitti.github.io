@@ -40,3 +40,28 @@
   font-size: 2rem;
   transition: all 1s ease;
 }
+
+
+@media screen and (max-width: 1350px) {
+  .app__main__contact__item {
+    border-radius: 1.25rem;
+    background-color: #080808;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+  }
+  
+  .app__main__contact__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .app__main__contact__item:hover {
+    border-radius: 1.25rem;
+    padding-left: 3rem;
+  }
+}
