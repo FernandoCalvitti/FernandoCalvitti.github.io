@@ -12,3 +12,33 @@
   max-width: 38.75rem;
   margin-top: 1.25rem;
 }
+
+@media screen and (max-width: 1350px) {
+  .app__paragraph {
+    font-size: 1.25rem;
+    line-height: 3rem;
+    max-width: unset;
+  }
+
+  .app__paragraph--margin-bigger {
+    font-size: 1.25rem;
+    line-height: 3rem;
+    max-width: 75%;
+    margin-top: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__paragraph {
+    font-size: 1rem;
+    line-height: 2.75rem;
+    max-width: unset;
+  }
+
+  .app__paragraph--margin-bigger {
+    font-size: 1.125rem;
+    line-height: 3rem;
+    max-width: 100%;
+    margin-top: 1.25rem;
+  }
+}

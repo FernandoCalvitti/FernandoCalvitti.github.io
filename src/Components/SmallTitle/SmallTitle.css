@@ -12,3 +12,23 @@
   background-color: transparent;
   margin-top: 1.5rem;
 }
+
+@media screen and (max-width: 1350px) {
+  .app__title--size-small {
+    font-size: 1.5rem;
+  }
+
+  .app__title--size-small--margin-bigger {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__title--size-small {
+    font-size: 1.25rem;
+  }
+
+  .app__title--size-small--margin-bigger {
+    font-size: 1.25rem;
+  }
+}

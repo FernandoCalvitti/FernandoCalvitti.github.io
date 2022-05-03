@@ -4,5 +4,22 @@
   justify-content: space-between;
   margin-top: 2.5rem;
 
-  width: 50%;
+  width: 55%;
+}
+
+@media screen and (max-width: 1350px) {
+  .app__main__experience__wrapper {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__main__experience__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -1rem;
+    width: 100%;
+    height: 40vh;
+  }
 }

@@ -4,3 +4,17 @@
   line-height: 5.125rem;
   font-weight: 400;
 }
+
+@media screen and (max-width: 1350px) {
+  .app__title--size-medium {
+    font-size: 2rem;
+    line-height: 2.125rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__title--size-medium {
+    font-size: 1.75rem;
+    line-height: 1.875rem;
+  }
+}

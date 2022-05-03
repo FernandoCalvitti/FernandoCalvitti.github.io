@@ -9,4 +9,26 @@
   height: 100vh;
   scroll-snap-align: center;
   padding: 18vh 0 0 8.2%;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+section.is-visible {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1350px) {
+  .app__main__section {
+    padding: 25vh 0 0 8.2%;
+    opacity: 0;
+    transition: opacity 2s;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__main__section {
+    padding: 12vh 8.2% 0 8.2%;
+    opacity: 0;
+    transition: opacity 2s;
+  }
 }
