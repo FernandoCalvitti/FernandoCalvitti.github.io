@@ -1,21 +1,25 @@
 const Experience = {
   first: {
     name: "INDEC",
-    date: "10/20 - PRESENT",
-    history: `My first job on software development.
-    Worked for an government office that collects data from everything that happens on the country`,
+    date: "10/20 - 08/2022",
+    stack: `Js, NodeJs, React, React-Native, Redux, Saga, Sass, Bootstrap, MUI, MongoDB`,
   },
   second: {
     name: "A. MINKIND",
-    date: "2021 - CONTRACTOR",
-    history:
-      "Did a collaboration with this amazing company in one project in which we were building the back-office system and the web for a VR video game.",
+    date: "2021",
+    stack: "TypeScript, React, StyledComponents, Redux",
   },
   third: {
     name: "NFT STUDIOS",
-    date: "11/21 - PRESENT",
-    history:
-      "My current field of learning and growing, working on development of metaverse with different projects, from a chat to a payment system.",
+    date: "11/21 - 11/22",
+    stack:
+      "TypeScript, React, NextJs, Redux, Sass, Storybook, Web3Js, MongoDB, Docker",
+  },
+  fourth: {
+    name: "MDN",
+    date: "02/23 - PRESENT",
+    stack:
+      "TypeScript, React, NextJs, i18n, ReactQuery, ReactTable, Zustand, Storybook, TailwindCSS, Sass, BEM, Bootstrap, Docker",
   },
 };
 
