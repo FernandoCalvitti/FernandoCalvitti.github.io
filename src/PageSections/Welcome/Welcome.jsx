@@ -12,12 +12,13 @@ const Welcome = () => {
     >
       <TextContainer
         title={"Hey! I am Fernando,"}
-        subtitle={"Front End Developer"}
-        smallTitle={"Living In Argentina"}
+        subtitle={"Software Developer"}
+        smallTitle={"From Argentina ⭐⭐⭐"}
       />
       <Paragraph
-        text={`With almost two years of experience on software development,
-             I stand out as a team player with a strong focus on details.
+        text={`
+        +3 years providing solutions and contributing to my teams. Strongly focused on the frontend with TypeScript, React & NextJS.
+        I stand out as a team player with a strong focus on details.
             Enjoy creating friendly and efficient user interfaces.
             Love my family, calisthenics and guitar!`}
         className="app__main__section--welcome--paragraph"

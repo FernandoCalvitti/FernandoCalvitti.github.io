@@ -1,6 +1,6 @@
 .app__main__skills__wrapper {
   background-color: var(--color-dark-grey);
-  max-width: 30vw;
+  max-width: 50vw;
   margin-top: 2.5rem;
   border-radius: 1rem;
   display: flex;
@@ -75,6 +75,30 @@
 
 .app__main__skills__wrapper > *:nth-child(13) {
   fill: #e26f00;
+}
+
+.app__main__skills__wrapper > *:nth-child(15) {
+  fill: #38bdf8;
+}
+
+.app__main__skills__wrapper > *:nth-child(16) {
+  fill: #1c60e6;
+}
+
+.app__main__skills__wrapper > *:nth-child(17) {
+  fill: #c66394;
+}
+
+.app__main__skills__wrapper > *:nth-child(19) {
+  fill: #f73f51;
+}
+
+.app__main__skills__wrapper > *:nth-child(20) {
+  background: linear-gradient(
+    90deg,
+    rgba(194, 35, 116, 1) 0%,
+    rgba(255, 187, 68, 1) 100%
+  );
 }
 
 @media screen and (max-width: 1350px) {
