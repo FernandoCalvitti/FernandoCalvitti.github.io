@@ -11,7 +11,14 @@ import {
   SiJest,
   SiGit,
   SiJira,
-  SiMaterialui,
+  SiMui,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiDocker,
+  SiSass,
+  SiFigma,
+  SiReacttable,
+  SiReactquery,
 } from "react-icons/si";
 
 import { DiScrum } from "react-icons/di";
@@ -29,9 +36,16 @@ function SkillsContainer() {
       <SiNodedotjs />
       <SiJest />
       <SiGit />
-      <SiMaterialui />
+      <SiMui />
       <SiJira />
       <DiScrum />
+      <SiNextdotjs />
+      <SiTailwindcss />
+      <SiDocker />
+      <SiSass />
+      <SiFigma />
+      <SiReacttable />
+      <SiReactquery />
     </div>
   );
 }
